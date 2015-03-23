@@ -1,5 +1,7 @@
 package c45;
-
+/**
+ * @author Yingda Huang (Lynda) ({@code yingda.huang@emory.edu})
+ */
 public class DecisionTreeNode {
 	/** Node key*/
 	String nodeAttr; // use the attribute index, as each attribute only appear in a node
