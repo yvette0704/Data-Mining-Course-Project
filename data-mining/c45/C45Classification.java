@@ -15,10 +15,10 @@ public class C45Classification {
 		String srcFile = "datafile.dat";
 		String testFile = "testfile.dat";
 		String outputFile = "Output.text";
-		C45(srcFile,testFile,outputFile);
+		new C45Classification(srcFile,testFile,outputFile);
 	} 
 	
-	public static void C45(String srcFile,String testFile,String outputFile) throws IOException{
+	public C45Classification(String srcFile,String testFile,String outputFile) throws IOException{
 
 		//Read from data file
 		Object[] trainArray = readFile(srcFile);
