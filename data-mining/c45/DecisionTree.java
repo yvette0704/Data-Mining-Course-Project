@@ -1,5 +1,7 @@
 package c45;
-
+/**
+ * @author Yingda Huang (Lynda) ({@code yingda.huang@emory.edu})
+ */
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
