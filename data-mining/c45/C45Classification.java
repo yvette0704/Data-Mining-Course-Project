@@ -14,7 +14,7 @@ public class C45Classification {
 	public static void main(String[] args) throws IOException{
 		String srcFile = "datafile.dat";
 		String testFile = "testfile.dat";
-		String outputFile = "Output.text";
+		String outputFile = "Output.txt";
 		new C45Classification(srcFile,testFile,outputFile);
 	} 
 	
