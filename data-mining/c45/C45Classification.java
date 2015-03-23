@@ -1,5 +1,9 @@
 package c45;
 
+/**
+ * @author Yingda Huang (Lynda) ({@code yingda.huang@emory.edu})
+ */
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
