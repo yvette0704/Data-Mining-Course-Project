@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.Scanner;
 
 public class Apriori {
 	private int minSup;
@@ -34,18 +35,22 @@ public class Apriori {
 	 */
 	 public static void main(String[] args) throws IOException { 
 		Apriori apriori = new Apriori();
-		double threshold = 0.005;
+		
 		int minSupport;
-		String srcFile = "datafile.dat";
+		Scanner in = new Scanner(System.in);
+		System.out.println("Please input the sourcefile's name.");
+		String srcFile = in.nextLine();
 		
 		//Read from data file
 		fileTrans = apriori.readFile(srcFile);
-		
+		System.out.println("Please input the threshold (in precentage).");
+		double threshold = in.nextDouble();
 		long totalItem = 0;
 		long totalTime = 0;
-		
+		System.out.println("Please input the outputfile's name.");
+		String outputFile = in.nextLine();
 		//Set up the output file
-		FileWriter outputWriter = new FileWriter("Output.txt");
+		FileWriter outputWriter = new FileWriter(outputFile);
 		minSupport = (int)(fileTrans.size() * threshold);
 		apriori.setMinSup(minSupport);
 		long startTime = System.currentTimeMillis();
