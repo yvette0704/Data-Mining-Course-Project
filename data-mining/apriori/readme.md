@@ -1,5 +1,5 @@
 
-This project is an Java implementation of the Apriori algorithm that is originally proposed by Agrawal et al.for frequent itemsets mining.
+Java implementation of the Apriori algorithm that is originally proposed by Agrawal et al.for frequent itemsets mining.
 
 The program should be executable with 3 parameters: 
   the name of the input dataset file; 
