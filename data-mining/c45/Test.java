@@ -1,5 +1,7 @@
 package c45;
-
+/**
+ * @author Yingda Huang (Lynda) ({@code yingda.huang@emory.edu})
+ */
 public class Test {
 
 	DecisionTree tree;
