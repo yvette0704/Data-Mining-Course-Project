@@ -1,3 +1,3 @@
-Emory CS 378 Introduction to Data Mining
+Emory CS 378 Introduction to Data Mining -  Course Project
 
-Implement Apriori and C
+Java Implementation of Apriori and C4.5, following test on popular database.
